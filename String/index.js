@@ -39,7 +39,9 @@ console.log(name23);
 console.log(name23.trim());
 
 // Starts With
-let username="abcdefghijklmnopqrstuvwxtz"
+let username="abcdefghijklmnopqrstuvwxyz"
 console.log(username.startsWith("ab"))
+// Ends With
+console.log(username.endsWith("xyz"))
 
 
