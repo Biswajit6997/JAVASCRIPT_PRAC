@@ -38,3 +38,8 @@ let name23="     biswajit";
 console.log(name23);
 console.log(name23.trim());
 
+// Starts With
+let username="abcdefghijklmnopqrstuvwxtz"
+console.log(username.startsWith("ab"))
+
+
