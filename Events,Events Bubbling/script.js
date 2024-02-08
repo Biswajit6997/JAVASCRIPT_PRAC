@@ -6,8 +6,9 @@ boxes.addEventListener("click",()=>{
 // button.addEventListener("dblclick", ()=>{
 //     document.querySelector(".box").innerHTML = "<b>Yayy you were clicked</b> Enjoy your click!"
 // })
+// let bod=document.getElementsByClassName("bo");
 
-boxes.addEventListener("dblclick",()=>{
+document.addEventListener("dblclick",()=>{
     alert("Dont click doubble click")
 })
 boxes.addEventListener("copy",()=>{
