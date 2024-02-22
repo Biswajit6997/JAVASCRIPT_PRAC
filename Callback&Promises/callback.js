@@ -10,4 +10,10 @@ const loadscript=(src,callback)=>{
     document.head.append(sc);
     
 }
+
+
+
+
+
+
 loadscript("https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.min.js",callback)
