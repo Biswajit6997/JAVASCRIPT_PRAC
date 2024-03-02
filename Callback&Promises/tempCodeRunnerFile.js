@@ -1,12 +1,8 @@
-
-// let x=createPromise()
-// console.log('Got a new Promise');
-// x.then((val)=>{
-//     console.log("Promise done",val);
-    
-// }).catch((err)=>{
-//     console.log('Somethiung went wrong',err);
-    
-// })
-// console.log('end');
-// for(i=0;i<1000000;i++){}
+fetch("https://api.github.com/users/Biswajit6997")
+.then((responce)=>{
+    return responce.json()
+})
+.then((data)=>{console.log(data);
+})
+.catch((error)=>console.log(error)
+)
